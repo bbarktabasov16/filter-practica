@@ -1,0 +1,23 @@
+img {
+	width: 150px;
+}
+
+.user_card {
+	margin: 0 20px 10px 20px;
+	background-color: rgba(95, 158, 160, 0.629);
+	padding: 20px 30px;
+	border-radius: 10px;
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.profile_img {
+	height: 102px;
+	border-radius: 15px;
+	overflow-y: auto;
+	scrollbar-color: rgb(114, 56, 132) transparent;
+  scrollbar-width: thin;
+	background-color: #fff;
+}
